@@ -39,7 +39,7 @@ catkin_make
 
 - Fourth step: Go to the source folder:<br/>
 <br/>`cd ~/catkin_ws/src`
-- <br/>From the "source" folder, we access the packages for robot arm:<br/>
+- From the "source" folder, we access the packages for robot arm:<br/>
 <br/>`git clone https://github.com/smart-methods/arduino_robot_arm.git`
 - Fifth step: We go back to the catkin folder to install some of the commands for the rose:<br/>
 <br/>`cd ~/catkin_ws`
