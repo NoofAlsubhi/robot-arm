@@ -36,9 +36,10 @@ cd ~/catkin_ws/
 
 catkin_make
 ```
+
 - Fourth step: Go to the source folder:<br/>
 <br/>`cd ~/catkin_ws/src`
-- From the "source" folder, we access the packages for robot arm:<br/>
+- <br/>From the "source" folder, we access the packages for robot arm:<br/>
 <br/>`git clone https://github.com/smart-methods/arduino_robot_arm.git`
 - Fifth step: We go back to the catkin folder to install some of the commands for the rose:<br/>
 <br/>`cd ~/catkin_ws`
@@ -54,16 +55,17 @@ sudo apt-get install ros-kinetic-gazebo-ros-control joint-state-publisher
 
 sudo apt-get install ros-kinetic-ros-controllers ros-kinetic-ros-control
 ```
+
 - After adding all the commands, we go to the file:<br/>
  <br/>`sudo nano ~/.bashrc`
 - In the end we add:<br/>
- <br/>`source /home/maryam/catkin_ws/devel/setup.bash`
+ <br/>`source /home/maryam/catkin_ws/devel/setup.bash`<br/>
  <br/> and then ctrl + o
-inter and then ctrl+x 
+inter and then ctrl+x <br/>
 - updating the "source" file:<br/>
 <br/>`source ~/.bashrc`
 -  Final step: We run the emulator through the command:<br/>
-<br/>`roslaunch robot_arm_pkg check_motors.launch`<br/>
+<br/>`roslaunch robot_arm_pkg check_motors.launch`
 
 
  <br/>![robot-arm](https://user-images.githubusercontent.com/85634146/129487558-2b859587-1245-4c33-8943-12af839c1fcd.png)
