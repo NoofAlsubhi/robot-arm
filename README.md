@@ -63,9 +63,12 @@ inter and then ctrl+x
 - updating the "source" file:<br/>
 <br/>`source ~/.bashrc`
 -  Final step: We run the emulator through the command:<br/>
-<br/>`roslaunch robot_arm_pkg check_motors.launch`
-- ![robot-arm](https://user-images.githubusercontent.com/85634146/129487558-2b859587-1245-4c33-8943-12af839c1fcd.png)
--![arm-robot](https://user-images.githubusercontent.com/85634146/129487680-5833dfea-6628-4a7d-980d-ea1353121924.png)
+<br/>`roslaunch robot_arm_pkg check_motors.launch`<br/>
+
+
+ <br/>![robot-arm](https://user-images.githubusercontent.com/85634146/129487558-2b859587-1245-4c33-8943-12af839c1fcd.png)
+- Then we can control the arm:<br/>
+ <br/>![arm-robot](https://user-images.githubusercontent.com/85634146/129487680-5833dfea-6628-4a7d-980d-ea1353121924.png)
 
 
 
